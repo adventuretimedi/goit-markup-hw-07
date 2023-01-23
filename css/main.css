@@ -574,8 +574,6 @@ header {
 }
 .subscribe-form {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 12px;
 }
 .subscribe-input {
@@ -611,9 +609,6 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-button {
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -646,7 +641,6 @@ header {
 
 .modal {
   width: 528px;
-  min-height: 581px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -724,6 +718,10 @@ header {
 
 .modal-field {
   margin-bottom: 10px;
+}
+
+.modal-field-top {
+  margin-top: 20px;
 }
 
 .modal-title {

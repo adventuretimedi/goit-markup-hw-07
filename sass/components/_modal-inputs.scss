@@ -1,6 +1,10 @@
 .modal-field {
   margin-bottom: 10px;
 }
+
+.modal-field-top {
+  margin-top: 20px;
+}
 .modal-title {
   @include font-props(700, 20px, 1.15);
   

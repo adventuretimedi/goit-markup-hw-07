@@ -11,8 +11,6 @@
 
     &-form {
         display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 12px;
     }
 
@@ -38,7 +36,6 @@
     }
 
     &-button {
-        @include transition-cubic(box-shadow);
         @include font-props(700, 16px, 1.9);
         letter-spacing: 0.06em;
 
